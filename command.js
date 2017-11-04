@@ -1,8 +1,10 @@
 // command.js
-// Used to seperate out text from a command into aan array
+// Used to seperate out text from a command into an array
 
 module.exports = {
 	makeCommand: function(command, raw, array) {
+		command = command.replace(/[\r|\n]+/g, ' ')
+		console.log(command);
 		if (!raw) { command = command.toLowerCase() }
 		if (array == false) { return command } 
 		else { 
