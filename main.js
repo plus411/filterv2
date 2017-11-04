@@ -47,12 +47,12 @@ bot.on('message', message => {
                 //channels.channelmod(message,command);
 			break;
 			
-			case 'test':
+			case 'poll':
 				react.poll(message);
 			break;
     }}
     
-    //admin.log(message);
+    admin.log(message);
 });
 
 bot.on('voiceStateUpdate', (oldState, state) => {
