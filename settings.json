@@ -1,0 +1,12 @@
+{
+    "token": "Mjk3MjAzOTIwMDU5NjI5NTY5.C79iYg.7NDh80KGy681IoD9r4Hxi9iZYy4", 
+	"prefix": "notfilter",
+    "alias": [
+        ["nsfw-saltwater","saltwater","shitposting"],
+        ["Derpy Lotls","overwatch","derpwatch","derpy lotls"],
+        ["Terralotls", "terraria", "aquarria"],
+        ["Anilotls", "anime", "sushi"]
+    ],
+    "groupsJoinable": ["Derpy Lotls", "Lotls", "Reef Dwellers", "Terralotls", "Anilotls"],
+    "channelsJoinable": ["nsfw-saltwater"]
+}
