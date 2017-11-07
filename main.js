@@ -39,12 +39,12 @@ bot.on('message', message => {
 				dice.roll(command,message);
 			break;
             
-            case 'embed':
-                embed.send(message);
-            break;
+      case 'embed':
+        embed.send(message);
+      break;
             
-            case 'voice':
-                //channels.channelmod(message,command);
+      case 'voice':
+        //channels.channelmod(message,command);
 			break;
 			
 			case 'poll':
