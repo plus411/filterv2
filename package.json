@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plus411/filter.git"
+    "url": "git+https://github.com/plus411/filterv2.git"
   },
   "author": "Plus411",
   "license": "CC-BY-NC-4.0",
   "bugs": {
-    "url": "https://github.com/plus411/filter/issues"
+    "url": "https://github.com/plus411/filterv2/issues"
   },
-  "homepage": "https://github.com/plus411/filter#readme",
+  "homepage": "https://github.com/plus411/filterv2#readme",
   "dependencies": {
     "discord.js": "^11.1.0",
     "roll": "^1.2.0"
