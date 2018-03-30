@@ -1,13 +1,16 @@
 {
+    "version": 2.1,
     "token": "TOKEN",
 	"prefix": "notfilter",
     "alias": [
+        ["Lotls","lotls","general"],
         ["nsfw-saltwater","saltwater","shitposting"],
         ["Derpy Lotls","overwatch","derpwatch","derpy lotls"],
         ["Terralotls", "terraria", "aquarria"],
-        ["Anilotls", "anime", "sushi"]
+        ["Anilotls", "anime", "sushi"],
+        ["Trashy Lotls","battlerite"]
     ],
-    "groupsJoinable": ["Derpy Lotls", "Lotls", "Reef Dwellers", "Terralotls", "Anilotls"],
+    "groupsJoinable": ["Derpy Lotls", "Lotls", "Terralotls", "Anilotls", "Trashy Lotls"],
     "channelsJoinable": ["nsfw-saltwater"],
     "adminlog": false
 }
