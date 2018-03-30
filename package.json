@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/plus411/filterv2#readme",
   "dependencies": {
-    "discord.js": "^11.1.0",
+    "discord.js": "^11.3.2",
     "roll": "^1.2.0"
   }
 }
