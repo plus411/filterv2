@@ -63,7 +63,7 @@ bot.on('message', message => {
 	}
 
 
-    if (options.prefix === 'filter')  { admin.log(message); }
+		if (options.adminlog)  { admin.log(message); }
 });
 
 bot.on('voiceStateUpdate', (oldState, state) => {

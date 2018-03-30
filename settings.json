@@ -8,5 +8,6 @@
         ["Anilotls", "anime", "sushi"]
     ],
     "groupsJoinable": ["Derpy Lotls", "Lotls", "Reef Dwellers", "Terralotls", "Anilotls"],
-    "channelsJoinable": ["nsfw-saltwater"]
+    "channelsJoinable": ["nsfw-saltwater"],
+    "adminlog": false
 }
