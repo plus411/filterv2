@@ -63,7 +63,8 @@ bot.on('message', message => {
 	}
 
 
-		if (options.adminlog)  { admin.log(message); }
+		if (options.adminlog) { admin.log(message); }
+		admin.despam(message, options.spam);
 });
 
 bot.on('voiceStateUpdate', (oldState, state) => {

@@ -3,7 +3,7 @@
     "token": "TOKEN",
 	"prefix": "notfilter",
     "alias": [
-        ["Lotls","lotls","general"],
+        ["Lotls","lotls","general", "lotl"],
         ["nsfw-saltwater","saltwater","shitposting"],
         ["Derpy Lotls","overwatch","derpwatch","derpy lotls"],
         ["Terralotls", "terraria", "aquarria"],
@@ -12,5 +12,9 @@
     ],
     "groupsJoinable": ["Derpy Lotls", "Lotls", "Terralotls", "Anilotls", "Trashy Lotls"],
     "channelsJoinable": ["nsfw-saltwater"],
-    "adminlog": false
+    "adminlog": false,
+    "spam": {
+        "history": 3,
+        "role": "Silent"
+    }
 }
