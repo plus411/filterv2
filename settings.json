@@ -15,6 +15,7 @@
     "adminlog": false,
     "spam": {
         "history": 3,
+        "tolerance": 2,
         "role": "Silent"
     }
 }

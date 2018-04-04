@@ -64,7 +64,8 @@ bot.on('message', message => {
 
 
 		if (options.adminlog) { admin.log(message); }
-		admin.despam(message, options.spam);
+		if (message.guild.name === 'The Aquarium') { admin.despam(message, options.spam); }
+		if (message.guild.name === 'The Aquarium') { admin.scrub(message, options.spam); }
 });
 
 bot.on('voiceStateUpdate', (oldState, state) => {
